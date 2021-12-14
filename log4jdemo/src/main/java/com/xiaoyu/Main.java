@@ -1,7 +1,7 @@
 package com.xiaoyu;
 
-
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * @author ：luoyÅu
@@ -11,14 +11,10 @@ import org.apache.log4j.Logger;
  */
 
 public class Main {
-    static final Logger LOGGER = Logger.getLogger(Main.class);
+    //static final Logger LOGGER = Logger.getLogger(Main.class);
+    static final Logger LOGGER = LoggerFactory.getLogger(Main.class);
 
     public static void main(String[] args) {
         LOGGER.info("log4j demo");
-
-        long l = 0;
-        if (l == 0){
-            LOGGER.info("l == 0");
-        }
     }
 }

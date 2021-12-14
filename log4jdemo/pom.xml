@@ -21,10 +21,10 @@
         </dependency>
 <!--        为了使得log4j支持slf4j，所以刻意引入slf4j-log4j12
             目的是为了基础库升级到slf4j标准-->
-<!--        <dependency>-->
-<!--            <groupId>org.slf4j</groupId>-->
-<!--            <artifactId>slf4j-log4j12</artifactId>-->
-<!--            <version>1.7.30</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.30</version>
+        </dependency>
     </dependencies>
 </project>
